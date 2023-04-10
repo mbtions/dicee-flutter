@@ -16,20 +16,6 @@ void main() {
   );
 }
 
-/*class DicePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Center(
-      child: Row(
-        children: [
-          Image.asset('images/dice1.png'),
-          Image.asset('images/dice1.png'),
-        ],
-      ),
-    );
-  }
-}
-*/
 class MyDicePage extends StatefulWidget {
   const MyDicePage({Key? key}) : super(key: key);
 
@@ -66,16 +52,3 @@ class _MyDicePageState extends State<MyDicePage> {
     );
   }
 }
-
-/* 
-TextButton(
-  onPressed: () {
-    setState(() {
-      diceNumber = Random().nextInt(6) + 1;
-    });
-  },
-  Widget: Image(
-    image: AssetImage('images/$diceNumber.png'),
-  ),
-),
-*/

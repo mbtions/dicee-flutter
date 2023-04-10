@@ -47,6 +47,14 @@ class _MyDicePageState extends State<MyDicePage> {
               child: Image.asset('images/dice$leftDiceNumber.png'),
             ),
           ),
+          Expanded(
+            child: TextButton(
+              onPressed: () {
+                rollDicee();
+              },
+              child: Image.asset('images/dice$rightDiceNumber.png'),
+            ),
+          ),
         ],
       ),
     );
